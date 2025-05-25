@@ -1,0 +1,17 @@
+#ifndef UNTITLED_SNAKE_H
+#define UNTITLED_SNAKE_H
+void initiate_srand();
+void setGamegrid();
+void printGame();
+void initiateSnake();
+void set_snake_on_grid();
+void moveSnake();
+void getInput();
+bool isRunning();
+void update_food_condition();
+void set_food_on_grid();
+void init_food();
+void grow_snake();
+void update_score();
+void print_score();
+#endif //UNTITLED_SNAKE_H
